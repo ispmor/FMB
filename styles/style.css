@@ -18,8 +18,8 @@
   z-index: 1;
   border: 2px solid;
   border-radius: 15px;
-  overflow: hidden;
-  background-color:#ccc;
+  overflow: visible;
+  background-color:#d6fbff;
 }
 .navi:hover{
   background-color: #f48713;
@@ -53,8 +53,8 @@ border-radius: 50%;
   width: 50%;
   height: 90%;
   position: fixed;  z-index: 2;
-  top: 6%;
-  left: 25%;
+  top: 5%;
+  left: 10%;
 }
 #map{
   height: 900px;

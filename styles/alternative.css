@@ -1,0 +1,42 @@
+* {
+        margin: 0;
+        padding: 0;								/*MEGA WAZNE !!! Zresetowac domyslne wlasnosci strony - wszystko wtedy poprawnie sie wyswietla*/
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+/*.workspace{
+  height: 900px;
+  width: 100%;
+}*/
+#map {
+  position: absolute;
+  height: 95.5%;
+          width: 100%;
+}
