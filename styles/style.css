@@ -1,0 +1,62 @@
+
+#mainspace{
+  opacity:0.8;
+
+  position:fixed;
+  width:60%;
+  height:100%;
+  top:0%;
+  left:20%;
+  z-index:1000;
+}
+
+.navi{
+  width: 50%;
+  height: 50%;
+  clear: both;
+  position: absolute;
+  z-index: 1;
+  border: 2px solid;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color:#ccc;
+}
+.navi:hover{
+  background-color: #f48713;
+}
+#navi1{
+  top:0;
+  left: 0;
+  position:absolute;
+}
+#navi2{
+  top:0;
+  left: 50%;
+  position:absolute;
+
+}
+#navi3{
+  top:50%;
+  left: 0;
+  position:absolute;
+
+}
+#navi4{
+  top:50%;
+  left: 50%;
+  position:absolute;
+
+}
+.map{
+  border: 2px solid;
+border-radius: 50%;
+  width: 50%;
+  height: 90%;
+  position: fixed;  z-index: 2;
+  top: 6%;
+  left: 25%;
+}
+#map{
+  height: 900px;
+         width: 80%;
+}
